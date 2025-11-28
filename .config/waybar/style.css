@@ -1,0 +1,13 @@
+* {
+	border: none;
+	border-radius: 0;
+	font-family: Roboto;
+	font-size: 20px;
+	min-height: 0;
+	color: rgba(255,255,255,1);
+ }
+
+
+window#waybar{
+	background: rgba(20,150,255,1);
+}
