@@ -13,5 +13,5 @@ bold_italic_font auto
 
 # BEGIN_KITTY_THEME
 # moonlight
-#include current-theme.conf
+include current-theme.conf
 # END_KITTY_THEME

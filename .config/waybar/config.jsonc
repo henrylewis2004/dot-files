@@ -1,51 +1,12 @@
 // -*- mode: jsonc -*-
 {
-	"layer": "top",
-	"position": "top",
+	"include":[
+		//settings
+		"settings/settings.jsonc",
 
-	"output": "DP-3",
-	"fixed-center": true,
-
-	"reload_style_on_change": true,
-
-	//modules
-	"modules-left": ["hyprland/workspaces"],
-	"modules-center": ["clock"],
-	"modules-right": ["network"],
-
-	//modules config
-
-	"network": {
-		"format-wifi": "_--_ ({signalStrength}%) | <span foreground = '#99ffdd'>D {bandwidthDownBytes}</span>  <span foreground = '#99ffdd'>| U {bandwidthUpBytes}</span> ",
-		//"format-alt": "<span foreground = '#99ffdd'>D {bandwidthDownBytes}</span> | <span foreground = '#99ffdd'>| U {bandwidthUpBytes}</span> ",
-
-	},
-
-	"clock": {
-		"format": "{:%H:%M}",
-		"rotate": 0,
-
-		"format-alt": "{:%d:%m:%y}",
-		"format-disconnected": "no wifi dipshit",
-	},
-
-	"hyprland/workspaces": {
-		"format": "{name}: {icon}",
-		"on-click": "activate",
-		"format-icons": {
-			"1": "1",
-			"2": "2",
-			"3": "3",
-			"4": "4",
-			"5": "5",
-			"active": "O",
-			"urgent": "u"
-		},
-
-		"persistent-workspaces": {
-			"DP-3": [1,2,3,4,5]
-
-		}
-	}
-
+		//modules
+		"modules/modulesL.jsonc",
+		"modules/modulesR.jsonc",
+		"modules/modulesC.jsonc",
+	],
 }

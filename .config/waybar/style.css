@@ -1,13 +1,13 @@
 * {
-	border: none;
-	border-radius: 0;
-	font-family: Roboto;
-	font-size: 20px;
-	min-height: 0;
-	color: rgba(255,255,255,1);
+	font-family: Jetbrains Mono;
+	font-size: 17px;
+	color: #f0c53b;
  }
 
 
 window#waybar{
-	background: rgba(20,150,255,1);
+	background-color: rgba(50,50,50,0.5);
+	border: 2px solid rgba(100,110,120,0.5);
 }
+
+
