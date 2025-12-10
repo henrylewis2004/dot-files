@@ -9,7 +9,6 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
 		"--branch=stable",
 		lazypath,
 	})
-
 end
 vim.opt.rtp:prepend(lazypath)
 
@@ -19,7 +18,21 @@ require("lazy").setup({
 	"blazkowolf/gruber-darker.nvim",
 	"ayu-theme/ayu-vim",
 	"xero/miasma.nvim",
+	"savq/melange-nvim",
+	"jpwol/thorn.nvim",
 
+	-- telescope
+	{
+		'nvim-telescope/telescope.nvim', tag = 'v0.2.0',
+		dependencies = { 
+			'nvim-lua/plenary.nvim',
+			{ 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
+			{ "nvim-tree/nvim-web-devicons", opts = {} },
+		},
+
+	},
+
+	-- blink completion plugin (provides lsp, fuzzy search etc)
 	{
 		"saghen/blink.cmp",
 		-- optional: provides snippets for the snippet source
@@ -39,9 +52,7 @@ require("lazy").setup({
 		    -- 'none' for no mappings
 		    --
 		    -- All presets have the following mappings:
-		    -- C-space: Open menu or open docs if already open
-		    -- C-n/C-p or Up/Down: Select next/previous item
-		    -- C-e: Hide menu
+		    -- C-space: Open menu or open docs if already open C-n/C-p or Up/Down: Select next/previous item C-e: Hide menu
 		    -- C-k: Toggle signature help (if signature.enabled = true)
 		    --
 		    -- See :h blink-cmp-config-keymap for defining your own keymap
@@ -103,15 +114,66 @@ require("lazy").setup({
 		opts_extend = { "sources.default" },
 	    },
 
-	{"mason-org/mason.nvim", opts = {} },
+	-- lsp
+	{
+		"mason-org/mason.nvim", opts = {} 
+	},
 
-	{"xiyaowong/transparent.nvim", opts = {}},
-	-- TransparentEnable
-	-- TransparentDisable
-	-- TransparentToggle
+	-- transparency plugin
+	{
+		"xiyaowong/transparent.nvim", opts = {}
+		-- TransparentEnable
+		-- TransparentDisable
+		-- TransparentToggle
 
-
-
-
+	},
 })
 
+
+local actions = require('telescope.actions')
+require('telescope').setup{
+  defaults = {
+    -- Default configuration for telescope goes here:
+    -- config_key = value,
+    mappings = {
+      i = {
+        -- map actions.which_key to <C-h> (default: <C-/>)
+        -- actions.which_key shows the mappings for your picker,
+        -- e.g. git_{create, delete, ...}_branch for the git_branches picker
+--        ["<C-h>"] = "which_key"
+		["<C-q>"] = actions.close,
+		["<C-c>"] = actions.send_to_qflist + actions.open_qflist,
+      },
+
+      n = {
+		["<C-q>"] = actions.close,
+		["<C-c>"] = actions.send_to_qflist + actions.open_qflist,
+      }
+    }
+  },
+  pickers = {
+    -- Default configuration for builtin pickers goes here:
+    -- picker_name = {
+    --   picker_config_key = value,
+    --   ...
+    -- }
+    -- Now the picker_config_key will be applied every time you call this
+    -- builtin picker
+  },
+  extensions = {
+    -- Your extension configuration goes here:
+    -- extension_name = {
+    --   extension_config_key = value,
+    -- }
+    -- please take a look at the readme of the extension you want to configure
+    fzf = {
+	    fuzzy = true,
+	    override_generic_sorter = true,
+	    override_file_sorter = true,
+	    case_mode = "smart_case",
+    },
+
+  }
+}
+
+require('telescope').load_extension('fzf')

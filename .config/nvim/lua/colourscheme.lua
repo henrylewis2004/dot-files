@@ -3,7 +3,9 @@ local colourscheme = {
 	'gruber-darker',
 	'monokai_pro',
 	'ayu',
-	'miasma'
+	'miasma',
+	'melange',
+	'thorn',
 }
 
 local colourSelect = 2

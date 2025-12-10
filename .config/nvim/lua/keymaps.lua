@@ -16,3 +16,7 @@ vim.keymap.set('n', '<C-Up>', ':resize -2<CR>', opts)
 vim.keymap.set('n', '<C-Down>', ':resize +2<CR>', opts)
 vim.keymap.set('n', '<C-Left>', ':vertical resize -2<CR>', opts)
 vim.keymap.set('n', '<C-Right>', ':vertical resize +2<CR>', opts)
+
+-- telescope
+local builtin = require('telescope.builtin')
+vim.keymap.set('n','<C-f>', builtin.find_files, { desc = 'Telescope find files'})
