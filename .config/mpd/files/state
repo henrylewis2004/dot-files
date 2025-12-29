@@ -1,8 +1,8 @@
-sw_volume: 85
+sw_volume: 60
 audio_device_state:1:Pipewire Compat Output
 state: play
 current: 0
-time: 120.11200000000001
+time: 40.467
 random: 0
 repeat: 0
 single: 0
@@ -12,7 +12,13 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:mp3/convert_wav/Toe/For Long Tomorrow/you go [7YVjXolsdD4].wav
-1:mp3/convert_wav/Toe/For Long Tomorrow/our next movement [DyYPhJNCA6U].wav
-2:mp3/convert_wav/Toe/For Long Tomorrow/long tomorrow [kc2BM1SDt6g].wav
+0:yt-dlp/Masayoshi Takanaka/Soon [JoXY4rgHML0].wav
+1:yt-dlp/Masayoshi Takanaka/Magical Night Light [m3HU8V-a95g].wav
+2:yt-dlp/Masayoshi Takanaka/Rainbow Paradise [d5ii5xj5m6k].wav
+3:yt-dlp/Masayoshi Takanaka/Thunderstorm [HItEV-1crFk].wav
+4:yt-dlp/Masayoshi Takanaka/Rising Arch [h24atCSZMuk].wav
+5:yt-dlp/Masayoshi Takanaka/Just Chuckle [h_qxTbtYO6E].wav
+6:yt-dlp/Masayoshi Takanaka/Rainbow Was Reborn [CT7LJek-Y6c].wav
+7:yt-dlp/Masayoshi Takanaka/Plumed Bird [LEPjaDZn0YU].wav
+8:yt-dlp/Masayoshi Takanaka/You Can Never Come To This Place [i7QC2XAe4hA].wav
 playlist_end

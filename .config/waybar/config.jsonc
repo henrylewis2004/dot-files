@@ -6,7 +6,11 @@
 
 		//modules
 		"modules/modulesL.jsonc",
-		"modules/modulesR.jsonc",
 		"modules/modulesC.jsonc",
+		"modules/modulesR.jsonc",
+
+
 	],
+
+
 }

@@ -2,7 +2,7 @@
 	"layer": "top",
 	"position": "top",
 	"margin-top": 5,
-	"margin-bottom": 0,
+	"margin-bottom": -20,
 	"margin-left": 50,
 	"margin-right": 50,
 	"start_hidden": true,
