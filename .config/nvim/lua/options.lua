@@ -6,3 +6,6 @@ vim.opt.relativenumber = true
 vim.opt.cursorline = true
 vim.opt.termguicolors = true
 
+-- mouse
+vim.opt.mouse=""
+

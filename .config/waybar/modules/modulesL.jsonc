@@ -1,0 +1,37 @@
+{
+	"modules-left": ["hyprland/workspaces"],
+
+	"hyprland/workspaces":{
+		"format" : "{icon}",
+		"on-click": "activate",
+		"format-icons": {
+			"default": "○",
+			"urgent": "⨁",
+			"active": "●",
+
+			"6":"➏",
+			"7":"➐",
+			"8":"➑",
+			"9":"➒",
+			"0":"➓",
+		},
+		"persistent-workspaces": {
+			"1": [],
+			"2": [],
+			"3": [],
+			"4": [],
+			"5": [],
+		},
+		"sort-by-number": true,
+
+
+
+
+
+	}
+
+
+
+
+
+}

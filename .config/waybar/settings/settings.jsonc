@@ -1,0 +1,17 @@
+{
+	"layer": "top",
+	"position": "top",
+	"margin-top": 5,
+	"margin-bottom": 0,
+	"margin-left": 50,
+	"margin-right": 50,
+	"start_hidden": true,
+	"fixed-center": true,
+	"reload_style_on_change": true,
+	"on-sigusr1": "toggle",
+	"width":800,
+
+
+
+
+}

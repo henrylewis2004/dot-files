@@ -1,0 +1,24 @@
+// https://www.nerdfonts.com/cheat-sheet
+{
+	"modules-right":["network","battery"],
+	"spacing": 10,
+
+	"network":{
+		"interval": 60,
+		"format": "󰤨 ",
+		"tooltip-format": "{signalStrength}%",
+
+
+
+
+	},
+
+	"battery": {
+		"format": "󰁹",
+		"tooltip-format": "{capacity}%",
+
+
+	}
+
+
+}
