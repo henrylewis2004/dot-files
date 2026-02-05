@@ -1,24 +1,37 @@
 // https://www.nerdfonts.com/cheat-sheet
 {
-	"modules-right":["network","battery"],
+	"modules-right":["wireplumber","network","battery"],
 	"spacing": 10,
+
+	"wireplumber":{
+		"format": "{volume}%  󰕾 ",
+		"format-muted":"0%  󰝟 ",
+		"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+		"tooltip": false,
+	},
 
 	"network":{
 		"interval": 60,
-		"format": "󰤨 ",
-		"tooltip-format": "{signalStrength}%",
-
-
-
-
+		"format": "{bandwidthTotalBytes} {icon}",
+		"format-disconnected": "{bandwidthTotalBytes} 󰤫 ",
+		"format-icons":{
+			"default":["󰤯 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
+		},
+		"tooltip-format": "{essid} : {signalStrength}%",
 	},
 
 	"battery": {
-		"format": "󰁹",
-		"tooltip-format": "{capacity}%",
+		"full-at": 98,
+		"format": "{capacity}% {icon}",
+		"format-charging" :"{capacity}% {icon}",
+		"format-icons":{
+			"charging":["󰂆 ","󰂈 ", "󰂉 ","󰂊 ","󰂅 "],
+			"default":["󰁻 ","󰁽 ","󰁿 ","󰂁 ","󰁹 "],
+		},
+		"tooltip-format": "{time}",
 
 
-	}
+	},
 
 
 }

@@ -1,14 +1,20 @@
 * {
 	font-family: Jetbrains Mono;
-	font-size: 17px;
-	color: #f0c53b;
+	font-size: 20px;
+	/*color: #f7a43b;*/
+	color: #88c7e1;
+	/*color: #ee6d18;*/
  }
 
 
 window#waybar{
-	background-color: rgba(50,50,50,0.5);
-	border: 2px solid rgba(100,110,120,0.5);
-	border-radius:15;
+	background-color: rgba(50,50,50,1);
+}
+
+
+
+#clock{
+	font-weight:bold;
 }
 
 

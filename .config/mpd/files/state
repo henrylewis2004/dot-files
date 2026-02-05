@@ -1,8 +1,8 @@
-sw_volume: 85
+sw_volume: 45
 audio_device_state:1:Pipewire Compat Output
-state: play
+state: pause
 current: 0
-time: 120.11200000000001
+time: 147.714
 random: 0
 repeat: 0
 single: 0
@@ -12,7 +12,20 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:mp3/convert_wav/Toe/For Long Tomorrow/you go [7YVjXolsdD4].wav
-1:mp3/convert_wav/Toe/For Long Tomorrow/our next movement [DyYPhJNCA6U].wav
-2:mp3/convert_wav/Toe/For Long Tomorrow/long tomorrow [kc2BM1SDt6g].wav
+0:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Porcelina Of The Vast Oceans (Remastered 2012) [Fe9dTVbAtcw].wav
+1:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Take Me Down (Remastered 2012) [ZGjUE6DHQAg].wav
+2:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Where Boys Fear To Tread (Remastered 2012) [yG75NJUr7-0].wav
+3:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Bodies (Remastered 2012) [WldXS4hY8mM].wav
+4:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Thirty-Three (Remastered 2012) [7V3Rc_KSn3I].wav
+5:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/In The Arms Of Sleep (Remastered 2012) [NqZ9aavBDMM].wav
+6:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/1979 (Remastered 2012) [A6M0yLxLCNA].wav
+7:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Tales Of A Scorched Earth (Remastered 2012) [iXiF-08gv0E].wav
+8:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Thru The Eyes Of Ruby (Remastered 2012) [kx-D8_gn5O4].wav
+9:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Stumbleine (Remastered 2012) [pbrvHcFOulc].wav
+10:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/X.Y.U. (Remastered 2012) [Htz_U7073i0].wav
+11:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/We Only Come Out At Night (Remastered 2012) [gCirYuLaEu8].wav
+12:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Beautiful (Remastered 2012) [7XZ4TuYbkVY].wav
+13:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Lily (My One And Only) (Remastered 2012) [3SUXQxupbJ0].wav
+14:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/By Starlight (Remastered 2012) [9HDAkjLCyAw].wav
+15:mp3/convert_wav/Smashing Pumpkins/Mellon Collie And The Infinite Sadness/Farewell And Goodnight (Remastered 2012) [-uJvUG3Dshs].wav
 playlist_end
