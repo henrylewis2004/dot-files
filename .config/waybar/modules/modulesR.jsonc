@@ -1,7 +1,17 @@
 // https://www.nerdfonts.com/cheat-sheet
 {
-	"modules-right":["wireplumber","network","battery"],
+	"modules-right":["bluetooth","wireplumber","network","battery"],
 	"spacing": 10,
+
+	"bluetooth":{
+		"format": "{status}  󰂯 ",
+		"format-connected": "{num_connections} connected 󰂯 ",
+		"tooltip-format-connected": "{device_alias} {device_battery_percentage}  󰂯 ",
+
+		"on-click":"exec kitty -e bluetui",
+		
+
+	},
 
 	"wireplumber":{
 		"format": "{volume}%  󰕾 ",
