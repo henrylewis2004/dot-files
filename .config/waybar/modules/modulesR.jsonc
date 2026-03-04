@@ -1,6 +1,6 @@
 // https://www.nerdfonts.com/cheat-sheet
 {
-	"modules-right":["bluetooth","wireplumber","network","battery"],
+	"modules-right":["mpd","bluetooth","wireplumber","network","battery"],
 	"spacing": 10,
 
 	"bluetooth":{
@@ -8,8 +8,7 @@
 		"format-connected": "{num_connections} connected 󰂯 ",
 		"tooltip-format-connected": "{device_alias} {device_battery_percentage}  󰂯 ",
 
-		"on-click":"exec kitty -e bluetui",
-		
+		"on-click":"exec kitty -e bluetui"
 
 	},
 
@@ -17,7 +16,7 @@
 		"format": "{volume}%  󰕾 ",
 		"format-muted":"0%  󰝟 ",
 		"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-		"tooltip": false,
+		"tooltip": false
 	},
 
 	"network":{
@@ -25,9 +24,9 @@
 		"format": "{bandwidthTotalBytes} {icon}",
 		"format-disconnected": "{bandwidthTotalBytes} 󰤫 ",
 		"format-icons":{
-			"default":["󰤯 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "],
+			"default":["󰤯 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "]
 		},
-		"tooltip-format": "{essid} : {signalStrength}%",
+		"tooltip-format": "{essid} : {signalStrength}%"
 	},
 
 	"battery": {
@@ -36,12 +35,27 @@
 		"format-charging" :"{capacity}% {icon}",
 		"format-icons":{
 			"charging":["󰂆 ","󰂈 ", "󰂉 ","󰂊 ","󰂅 "],
-			"default":["󰁻 ","󰁽 ","󰁿 ","󰂁 ","󰁹 "],
+			"default":["󰁻 ","󰁽 ","󰁿 ","󰂁 ","󰁹 "]
 		},
-		"tooltip-format": "{time}",
+		"tooltip-format": "{time}"
 
 
 	},
+
+	"mpd":{
+		"format":"{stateIcon} {title} - {artist}",
+		"format-paused":"{stateIcon} {title} - {artist}",
+		"state-icons":{
+			"playing":"󰐊",
+			"paused":"󰏤"
+		},
+		"on-click":"mpc toggle",
+		"tooltip":false,
+
+		"max-length":20
+
+
+	}
 
 
 }

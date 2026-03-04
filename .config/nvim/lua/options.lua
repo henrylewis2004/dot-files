@@ -3,10 +3,9 @@ vim.opt.clipboard = 'unnamedplus'
 -- ui config
 vim.opt.number = true
 vim.opt.relativenumber = true
-vim.opt.cursorline = true
+vim.opt.cursorline = false
 vim.opt.termguicolors = true
 
-vim.opt.cursorline = false
 vim.opt.smoothscroll = true
 
 -- mouse

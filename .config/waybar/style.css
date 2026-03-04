@@ -1,17 +1,25 @@
 * {
 	font-family: Jetbrains Mono;
 	font-size: 20px;
-	color: #DCD7BA
+	color: #1B1B1B;
 	/*color: #f7a43b;*/
 	/*color: #88c7e1;*/
 	/*color: #ee6d18;*/
  }
 
-
-window#waybar{
-	background-color: rgba(50,50,50,1);
+window#waybar.empty{
+	background-color: transparent; /*rgba(50,50,50,1);*/
 }
 
+window#waybar{
+	background-color: #DCD7BA; /*rgba(50,50,50,1);*/
+	border-radius: 0px 0px 20px 20px;
+}
+
+tooltip {
+	background-color: #DCD7BA;
+	border-radius: 8px;
+}
 
 
 #clock{

@@ -4,7 +4,7 @@
 
 	"clock": {
 		"format": "{:%H:%M}",
-		"tooltip-format": "{:%a, %d %b}",
+		"tooltip-format": "{:%A, %e %B}"
 
 	}
 
