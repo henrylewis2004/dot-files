@@ -6,9 +6,10 @@ local colourscheme = {
 	'miasma',
 	'melange',
 	'thorn',
+	'gruvbox',
 }
 
-local colourSelect = 2
+local colourSelect = 7
 
 local is_ok, _ = pcall(vim.cmd, "colorscheme " .. colourscheme[colourSelect])
 if not is_ok then
