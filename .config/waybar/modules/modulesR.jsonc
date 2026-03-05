@@ -4,9 +4,9 @@
 	"spacing": 10,
 
 	"bluetooth":{
-		"format": "{status}  󰂯 ",
-		"format-connected": "{num_connections} connected 󰂯 ",
-		"tooltip-format-connected": "{device_alias} {device_battery_percentage}  󰂯 ",
+		"format": "{status}  󰂯",
+		"format-connected": "{num_connections} connected 󰂯",
+		"tooltip-format-connected": "{device_alias} {device_battery_percentage}  󰂯",
 
 		"on-click":"exec kitty -e bluetui"
 
@@ -43,11 +43,12 @@
 	},
 
 	"mpd":{
-		"format":"{stateIcon} {title} - {artist}",
-		"format-paused":"{stateIcon} {title} - {artist}",
+		"format":"{stateIcon} {title} - {artist} 󰝚 ",
+		"format-paused":"{stateIcon} {title} - {artist} 󰝚 ",
+		"format-stopped":"󰓛 stopped 󰝚 ",
 		"state-icons":{
-			"playing":"󰐊",
-			"paused":"󰏤"
+			"playing":"󰏤",
+			"paused":"󰐊"
 		},
 		"on-click":"mpc toggle",
 		"tooltip":false,

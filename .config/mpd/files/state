@@ -1,6 +1,8 @@
 sw_volume: 45
 audio_device_state:1:Pipewire Compat Output
-state: stop
+state: play
+current: 0
+time: 225.092
 random: 0
 repeat: 0
 single: 0
@@ -10,4 +12,11 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
+0:mp3/convert_wav/Radiohead/OK Cmputer/Karma Police [4IJI6soiQhI].wav
+1:mp3/convert_wav/Radiohead/OK Cmputer/Fitter Happier [O4SzvsMFaek].wav
+2:mp3/convert_wav/Radiohead/OK Cmputer/Electioneering [3DtgWrFTtQk].wav
+3:mp3/convert_wav/Radiohead/OK Cmputer/Climbing Up the Walls [XX4EpkR-Sp4].wav
+4:mp3/convert_wav/Radiohead/OK Cmputer/No Surprises [LBt60dfwEBY].wav
+5:mp3/convert_wav/Radiohead/OK Cmputer/Lucky [yuZYQvvLXVY].wav
+6:mp3/convert_wav/Radiohead/OK Cmputer/The Tourist [HkgzObf8uVU].wav
 playlist_end

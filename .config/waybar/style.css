@@ -7,9 +7,11 @@
 	/*color: #ee6d18;*/
  }
 
+ /*
 window#waybar.empty{
-	background-color: transparent; /*rgba(50,50,50,1);*/
+	background-color: transparent; 
 }
+*/
 
 window#waybar{
 	background-color: #DCD7BA; /*rgba(50,50,50,1);*/

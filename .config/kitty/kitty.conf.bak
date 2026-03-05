@@ -6,7 +6,6 @@ tab_bar_style powerline
 tab_powerline_style round
 
 
-
 #mappings
 map ctrl+shift+t new_tab_with_cwd
 
@@ -21,6 +20,6 @@ font_size	19.0
 
 
 # BEGIN_KITTY_THEME
-# Brogrammer
+# Wombat
 include current-theme.conf
 # END_KITTY_THEME
