@@ -1,6 +1,6 @@
 // https://www.nerdfonts.com/cheat-sheet
 {
-	"modules-right":["mpd","bluetooth","wireplumber","network","battery"],
+	"modules-right":["mpd","custom/nordvpn","bluetooth","wireplumber","network","battery"],
 	"spacing": 10,
 
 	"bluetooth":{
@@ -56,6 +56,15 @@
 		"max-length":20
 
 
+	},
+
+	"custom/nordvpn":{
+		"exec": "~/.config/waybar/scripts/nordvpn.sh",
+		"return-type": "json",
+		"interval": 10,
+		"on-click": "nordvpn connect",
+		"on-right-click": "nordvpn disconnect",
+		"tooltip": true
 	}
 
 
