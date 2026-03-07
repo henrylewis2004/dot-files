@@ -4,29 +4,33 @@
 	"spacing": 10,
 
 	"bluetooth":{
-		"format": "{status}  󰂯",
-		"format-connected": "{num_connections} connected 󰂯",
-		"tooltip-format-connected": "{device_alias} {device_battery_percentage}  󰂯",
+		"format": "󰂯",
+		"format-disabled": "󰂲",
+		"format-connected": "󰂱 ",
+
+		"tooltip-format": "{status}",
+		"tooltip-format-connected":"{device_alias} connected",
 
 		"on-click":"exec kitty -e bluetui"
 
 	},
 
 	"wireplumber":{
-		"format": "{volume}%  󰕾 ",
-		"format-muted":"0%  󰝟 ",
+		"format": "󰕾 ",
+		"format-muted":"󰝟 ",
+		"tooltip-format": "{volume}%",
 		"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
-		"tooltip": false
+		"tooltip": true
 	},
 
 	"network":{
 		"interval": 60,
-		"format": "{bandwidthTotalBytes} {icon}",
-		"format-disconnected": "{bandwidthTotalBytes} 󰤫 ",
+		"format": "{icon}",
+		"format-disconnected": "󰤫 ",
 		"format-icons":{
 			"default":["󰤯 ", "󰤟 ", "󰤢 ", "󰤥 ", "󰤨 "]
 		},
-		"tooltip-format": "{essid} : {signalStrength}%"
+		"tooltip-format": "{essid} : {signalStrength}% : {bandwidthTotalBytes}"
 	},
 
 	"battery": {
@@ -63,7 +67,7 @@
 		"return-type": "json",
 		"interval": 10,
 		"on-click": "nordvpn connect",
-		"on-right-click": "nordvpn disconnect",
+		"on-click-right": "nordvpn disconnect",
 		"tooltip": true
 	}
 
