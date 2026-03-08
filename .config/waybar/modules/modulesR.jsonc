@@ -19,7 +19,8 @@
 		"format": "󰕾 ",
 		"format-muted":"󰝟 ",
 		"tooltip-format": "{volume}%",
-		"on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+		"on-click-right": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+		"on-click": "exec kitty -e wiremix",
 		"tooltip": true
 	},
 
