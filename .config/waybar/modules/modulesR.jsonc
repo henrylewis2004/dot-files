@@ -4,7 +4,7 @@
 	"spacing": 10,
 
 	"bluetooth":{
-		"format": "󰂯",
+		"format": "󰂯 ",
 		"format-disabled": "󰂲",
 		"format-connected": "󰂱 ",
 
@@ -36,7 +36,7 @@
 
 	"battery": {
 		"full-at": 98,
-		"format": "{icon}",
+		"format": "{icon} ",
 		"format-charging" :"{icon}",
 		"format-icons":{
 			"charging":["󰂆 ","󰂈 ", "󰂉 ","󰂊 ","󰂅 "],

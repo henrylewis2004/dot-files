@@ -1,8 +1,8 @@
-sw_volume: 45
+sw_volume: 40
 audio_device_state:1:Pipewire Compat Output
 state: pause
 current: 0
-time: 62.823
+time: 110.681
 random: 0
 repeat: 0
 single: 0
@@ -12,17 +12,15 @@ mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:wav/Red Hot Chili Peppers/Californication/track03.cdda.wav
-1:wav/Red Hot Chili Peppers/Californication/track04.cdda.wav
-2:wav/Red Hot Chili Peppers/Californication/track05.cdda.wav
-3:wav/Red Hot Chili Peppers/Californication/track06.cdda.wav
-4:wav/Red Hot Chili Peppers/Californication/track07.cdda.wav
-5:wav/Red Hot Chili Peppers/Californication/track08.cdda.wav
-6:wav/Red Hot Chili Peppers/Californication/track09.cdda.wav
-7:wav/Red Hot Chili Peppers/Californication/track10.cdda.wav
-8:wav/Red Hot Chili Peppers/Californication/track11.cdda.wav
-9:wav/Red Hot Chili Peppers/Californication/track12.cdda.wav
-10:wav/Red Hot Chili Peppers/Californication/track13.cdda.wav
-11:wav/Red Hot Chili Peppers/Californication/track14.cdda.wav
-12:wav/Red Hot Chili Peppers/Californication/track15.cdda.wav
+0:mp3/convert_wav/The Beatles/Revolver/Love You To (Remastered 2009) [s1X-q7MweIc].wav
+1:mp3/convert_wav/The Beatles/Revolver/Here, There And Everywhere (Remastered 2009) [xdcSFVXd3MU].wav
+2:mp3/convert_wav/The Beatles/Revolver/Yellow Submarine (Remastered 2009) [RhoprlMxteE].wav
+3:mp3/convert_wav/The Beatles/Revolver/She Said She Said (Remastered 2009) [rLzfo59AdEc].wav
+4:mp3/convert_wav/The Beatles/Revolver/Good Day Sunshine (Remastered 2009) [6e01nNA02vw].wav
+5:mp3/convert_wav/The Beatles/Revolver/And Your Bird Can Sing (Remastered 2009) [Uq0aeEYLkIE].wav
+6:mp3/convert_wav/The Beatles/Revolver/For No One (Remastered 2009) [ELlLIwhvknk].wav
+7:mp3/convert_wav/The Beatles/Revolver/Doctor Robert (Remastered 2009) [Tb9L3iAUhc0].wav
+8:mp3/convert_wav/The Beatles/Revolver/I Want To Tell You (Remastered 2009) [7kXusIyqQ2o].wav
+9:mp3/convert_wav/The Beatles/Revolver/Got To Get You Into My Life (Remastered 2009) [r95-7zfgtLw].wav
+10:mp3/convert_wav/The Beatles/Revolver/Tomorrow Never Knows (Remastered 2009) [pHNbHn3i9S4].wav
 playlist_end
